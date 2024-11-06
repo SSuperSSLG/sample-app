@@ -1,5 +1,7 @@
 #!/bin/bash
-
+rm tempdir -r
+docker stop samplerunning
+docker rm samplerunning
 mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
